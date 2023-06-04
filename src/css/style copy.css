@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+#icon {
+    width: 50px;
+    margin: 15px 15px ;
+    display: block;
+    align-items: left;
+}
+
+h1 {
+    font-size: 50px;
+    color: #105718;
+    text-align: center;
+}
+
+#search {
+    width: 550px;
+    height: 25px;
+    border-radius: 5px;
+    display:block;
+    margin: 15px auto;
+    padding-left: 15px;
+    color:  rgb(204,204,204);
+    border: 2px solid rgb(204,204,204);
+}
+
+.circle{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.circle__green{
+    background-color: #56cd42;
+}
+.circle__red{
+    background-color: #cd4242;
+}
+
+.circle__gray {
+    background-color: #bbbbbb;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    height: 220px;
+    align-items: center;
+     
+}
+.divisor {
+    display: block;
+    width: 100%;
+    border: 1px solid #aae6a0;
+    margin: 40px 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.card__image {
+    margin-right: 15px;
+}
+
+.card__image-content {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 12px 0 0 12px;
+
+}
+
+.card__content {
+    width: 100%;
+    max-width: 200px;
+}
+
+.card_title {
+    font-size: 24px;
+}
+
+.card_title, .card_location_info,.card_episode_info {
+    margin-bottom: 5px;
+}
+.card__features {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card_location {
+    margin-bottom: 15px;
+}
+
+.card_status_seperate {
+    margin: 0 5px;
+}
+
+.card_status {
+    display: flex;
+    align-items: center;
+}
+
+.color--green {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.color--black {
+    color:  rgb(27, 27, 27);
+    font-weight: bold;
+}
+
+.color--gray{
+    color: grey;
+    font-weight: bold;
+}
+
+
+#logo {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 150px;
+    background-color: #1f2821;
+    text-align: center;
+    
+}
+
+.btnContainer {
+    display: flex;
+    justify-content:center;
+    margin: 25px 25px;
+}
+
+button {
+    background-color: #1f2821;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 90px;
+    height: 30px;
+    margin: 1px;
+}
+
+.pagination, .btnPrev, .btnNext {
+    background-color: #1f2821;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisor {
+    display: block;
+    width: 100vh;
+    border: 1px solid #bebebe;
+    margin: 40px auto;
+}
+
+#infoGerais { 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+p {
+    color: #848484;
+    /* margin-top: 30px; */
+}
