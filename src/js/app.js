@@ -52,7 +52,7 @@ function cardTemplate(data) {
     section.innerHTML = ""
     data.map(async (item, index) => {
         const { image, name, status, species, location } = item.character
-        const { episode } = item
+        const { getEpisode } = item
         // const [episod]} = item 
         // console.log(getEpisode)
 
@@ -70,8 +70,8 @@ function cardTemplate(data) {
                 </div>
                 <p class="card_location_info color-black">Última localização conhecida</p>
                 <p class="card_location color-gray">${location.name}</p>
-                <p class="card_episode_info color-black">Vista a ultima vez em:</p>
-                <p class="card_episode color-gray">${episode}</p>
+                <p class="card_episode_info color-black">Vista a última vez em:</p>
+                <p class="card_episode color-gray">${getEpisode}</p>
             </div>
         </div>
         ${index % 2 !== 0 && index !== 19 ? `<span class="divisor"></span>` : ``}
@@ -173,7 +173,7 @@ function createBtns(counter, btns, groupBtn) {
         })
     }
 
-    return true
+
 }
 
 
